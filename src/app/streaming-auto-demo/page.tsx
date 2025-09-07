@@ -1,5 +1,7 @@
-// app/streaming-demo/page.js
-import ToolsCardsManual from "@/components/tools-card-manual";
+// app/streaming-auto-demo/page.js
+export const dynamic = "force-dynamic";
+
+import ToolsCardsManual from "@/components/tools-card-auto";
 
 export default function Home() {
   return (
