@@ -10,11 +10,18 @@ export default function Home() {
           Next.js Streaming
         </h1>
       </div>
-      <Link href="/streaming-demo" prefetch={false}>
-        <Button size="lg" className="cursor-pointer">
-          Streaming Demo
-        </Button>
-      </Link>
+      <div className="flex flex-col items-center gap-4">
+        <Link href="/streaming-auto-demo" prefetch={false}>
+          <Button size="lg" className="cursor-pointer">
+            Streaming Auto Demo
+          </Button>
+        </Link>
+        <Link href="/streaming-custom-demo" prefetch={false}>
+          <Button size="lg" className="cursor-pointer">
+            Streaming Custom/Manual Demo
+          </Button>
+        </Link>
+      </div>
     </div>
   );
 }
